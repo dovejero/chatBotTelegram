@@ -14,7 +14,7 @@ var app = express();
 const Telegraf = require('telegraf')
 const botModel = require('./models/bot')
 
-const bot = new Telegraf('647371039:AAF2xkcu3YRslJRm2h_a05nx5fscvgwu2-c')
+const bot = new Telegraf('ApiKey del boot')
 app.use(bot.webhookCallback('/bot'))
 bot.telegram.setWebhook('https://da966023.ngrok.io/bot')
 
